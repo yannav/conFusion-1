@@ -1,0 +1,46 @@
+Assignment Overview
+
+In this assignment you will construct a page using Angular to display information about a dish and the customer comments posted about the dish. At the end of this assignment, you should have completed the following tasks to update the page to:
+
+Display details of the dish
+Display a list of comments.
+Let the user order the comments by author, date or rating.
+Assignment Requirements
+
+This assignment requires you to complete the following three tasks. Detailed instructions for each task are given below.
+
+Task 1
+
+In this task you will display the information about the dish in the page. This should be displayed in the first column div inside the row div. To do this, you need to complete the following:
+
+Set up the row to use the dishDetailController
+Use the Bootstrap Media Object to display the information about the dish.
+Task 2
+
+In this task you will display all the comments from the dish JavaScript object as a list of comments underneath the dish description on the page. The comments should be displayed in the second column div inside the row div. To do this, you need to complete the following:
+
+Use the Bootstrap blockquote class to format the comments. The author and the date information should be in the footer of the blockquote.
+The date field should be formatted using the Angular date filter.
+The comments are constructed by iterating over the comments array using the appropriate ng- directive.
+Task 3
+
+In this task you will add the filter to the comments section so that the comments can be ordered according to user's selected criteria. You will use the orderBy filter in Angular to achieve this. To do this, you need to complete the following:
+
+Set up an input field that enables the user to type in their ordering criteria: author, date and rating. These could be prefixed with a '-' sign to indicate reverse ordering.
+Set up the orderBy filter on the comments so that the comments will be ordered as per the user's specification.
+Review criteria¸üÉÙ 
+Upon completion of the assignment, your submission will be reviewed based on the following criteria:
+
+Task 1:
+
+The row is set up correctly to use the dish controller.
+The Bootstrap media object has been correctly used to format the dish information to be displayed on the page.
+Task 2:
+
+The Bootstrap blockquote class has been used to format the comments. The author and the date information is displayed in the footer of the blockquote.
+The date field has been formatted using the Angular date filter.
+The comments list is correctly constructed by iterating over the comments array using the appropriate ng- directive.
+Task 3:
+
+An input field that enables the user to type in their ordering criteria: author, date and rating has been correctly set up.
+The orderBy filter has been set up correctly on the comments so that they are ordered as per the user's specification.
